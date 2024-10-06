@@ -1,0 +1,90 @@
+.imag1-item{
+    width: 180px;
+    height: 180px;
+}
+.div-all-item-cart{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: auto;
+}
+    
+.div-mere{
+    width: 890px;
+    height: auto;
+}
+
+.div-page-cart{
+    background-color: #EAEDED!important;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 18px 18px;
+}
+.div-the-all-element{
+    width: 907px;
+    height: auto;
+}
+.div_checkout1{
+    width: 300px;
+    background-color: white;
+    height: auto;
+    margin-top: -20px;
+}
+hr{
+    margin-left: 8px;
+}
+.button-proced-checkout{
+    width: 259px;
+    height: 30px;
+    color: white;
+    background-color: rgba(1, 86, 255, 1);
+    border: none;
+    border-radius: 50px;
+    margin-block: 14px;
+    cursor: pointer;
+}
+.input_of_check{
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-block: 10px;
+}
+.label_of_chek{
+   color: black;
+   font-size: larger;
+}
+.div_of_details{
+    display: flex;
+    justify-content: space-between;
+}
+.button-proced-Paypal{
+    width: 259px;
+    height: 30px;
+    color: #0F1111;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 50px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.button-proced-Paypal:hover{
+    background-color: #f0dc76;
+}
+.button-MultiAdresse{
+    width: 259px;
+    height: 30px;
+    color: #0F1111;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    margin-block: 14px;
+    cursor: pointer;
+    border: 1px black solid;
+}
+.button-MultiAdresse:hover{
+    background-color: rgba(0, 0, 0, 0.016);
+}
+.div_of_all_details{
+    padding-inline: 20px;
+}

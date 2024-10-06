@@ -1,0 +1,35 @@
+.div-tape{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 970px;
+    height: 28px;
+    background-color: rgba(244, 244, 245, 1);
+    margin-top: 30px;
+    border-radius: 9px;
+}
+.nav-articles{
+    width: 270px;
+    height: 24px;
+    text-align: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.nav-articles:hover{
+    background-color: white;
+}
+.div-of-formilaire{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.form-input{
+    width: 300px;
+}
+.div-label-and-input{
+    margin-bottom: 20px;
+}
+.select-form{
+    width: 300px;
+    height: 27px;
+}

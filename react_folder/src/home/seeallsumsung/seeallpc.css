@@ -1,0 +1,222 @@
+.imagseeallpc{
+    width: 150px;
+    height: 150px;
+}
+div>div>.imgheder{
+    width: 96%;
+}
+div>.divimg{
+    text-align: center;
+}
+div>div>div>div>.btn_filter{
+    border-radius: 40px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgba(162, 166, 176, 1);
+    color: rgba(162, 166, 176, 1);
+}
+div>div>div>.div_filter{
+    width: 200px;
+    margin-left: 20px;
+    height: auto;
+    background-color: rgba(245, 247, 255, 1);
+}
+div>div>div>.div_filter>div{
+    width: auto;
+    text-align: center;
+}
+div>div>div>.div_filter>p{
+    font-size: large;
+    margin-top: 10px;
+}
+div>div>div>div>div>.filter-price{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 6px;
+}
+div>div>div>.div-category-price{
+    padding-block: 10px;
+    padding-inline: 6px;
+}
+div>div>div>div>div>.filter-Brands>.img_frame{
+    width: 100px;
+    height: 55px;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    
+}
+div>div>div>div>div>.filter-Brands{
+    display: flex;
+}
+div>div>div>.div_brands{
+    width: 200px;
+    height: auto;
+    background-color: rgba(245, 247, 255, 1);
+    margin-left: 20px;
+    border-bottom: 1px solid;
+}
+div>div>div>.div_brands>div{
+    width: auto;
+    text-align: center;
+}
+div>div>div>.div_brands_div2{
+    margin-top: 20px;
+}
+div>div>div>.div_item{
+    width: 200px;
+    text-align: center;
+    height: 100px;
+    background-color: rgba(245, 247, 255, 1);
+    margin-left: 20px;
+}
+div>div>div>.imag_shize{
+    margin-top: 10px;
+    width: 200px;
+    height: 340px;
+    margin-left: 20px;
+}
+div>.div_image_all_pc{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap:3.5rem;
+    row-gap: 0rem;
+}
+div>.div_image_all_pc>div{
+    width: 200px;
+    height: auto;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.105);
+}
+div>.div_image_all_pc>div:hover{
+    width: 200px;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: -10px;
+    margin-bottom: 110px;
+    box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.105);
+}
+.div_of_composant_allpc{
+    display: flex;
+    gap: 3rem;
+    height: auto;
+}
+div>div>.imagrev{
+    width: 11px;
+    height: 11px;
+}
+div>p>.p1{
+    color: rgba(0, 0, 0, 0.384);
+}
+div>p>.p2{
+    color: rgba(0, 0, 0, 0.185);
+}
+div>.btn-learn{
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    border: 2px solid rgba(162, 166, 176, 1);
+    color: rgba(162, 166, 176, 1);
+}
+div>.puctures-support{
+    width: 65px;
+    height: 65px;
+}
+div>.product-saving{
+    text-align: center;
+}
+div>.div-saving-account-support{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    background-color:  rgba(245, 247, 255, 1);
+    height: 230px;
+    padding-top: 60px;
+}
+.navbar-continer{
+    width: auto;
+    padding-top: 20px;
+    padding-inline: 90px;
+    background-color: rgba(43, 43, 43, 1);
+    height: 380px;
+}
+.div-navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 1rem;
+    color: white;
+}
+div>ul{
+    list-style-type: none;
+}
+.sing_up_to{
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 0%;
+}
+.sing-subscrube{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-subscrube{
+    background-color: rgba(1, 86, 255, 1);
+    border-radius: 50px;
+    width: 120px;
+    height: 45px;
+    color: white;
+    border: 0ch;
+    margin-left: 30px;
+}
+.input_subs{
+    height: 45px;
+    border: 2px white;
+    color: white;
+    width: 340px;
+    background-color: black;
+}
+.imag-bank{
+    width: 28px;
+    height: 22px;
+}
+.Add-to-cart{
+    background-color: #ffd814;
+    width: 120px;
+    height: 26px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 14px;
+    border: 0px;
+    padding-inline: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Add-to-cart>img{
+    width: 16px;
+    height: 12px;
+}
+.Add-to-cart:hover{
+    background-color: #fcd200;
+}
+.grether-then-sumbole{
+    transform: rotate(90deg);
+    width: 10px;
+}
+.button_add_to_cart_in_all_product{
+    width: 132px;
+    height: 37px;
+    color: rgba(1, 86, 255, 1);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    align-items: center;
+    background-color: white;
+    border: 2px rgba(1, 86, 255, 1) solid;
+    cursor: pointer;
+    list-style-type: armenian;
+    line-height: auto;
+}

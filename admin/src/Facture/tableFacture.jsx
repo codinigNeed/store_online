@@ -1,0 +1,1 @@
+export const facture = [{nomProduit:'nomproduit',codeProduit:'codeProduit',quantity:100}]

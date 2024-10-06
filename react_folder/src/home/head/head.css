@@ -1,0 +1,101 @@
+.divM{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(217, 217, 217, 1);
+    align-items: center;
+}
+.sherchinp{
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   width: 400px;
+   height: 36.5px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sherchbutt{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+}
+.sherchbutt:hover{
+    background: #6cf0c2;
+}
+.singlog{
+    width: 130px;
+    background-color: rgba(212, 255, 255, 1);
+    border: 0cap;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.divM>.form{
+    margin-bottom: 10px;
+}
+.divheader{
+    background-color: rgba(37, 183, 113, 1);
+    display: flex;
+}
+.divheader>.liste{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    gap: 4rem;
+    font-size: 16px;
+
+}
+.divheader>.liste>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-block: 17px;
+    padding-inline: 20px;
+}
+.divheader>.liste>li>a:hover{
+    color: black;
+    background-color: white;
+}
+.imaghome{
+    width: 96%;
+}
+.btnshoping{
+    background-color: rgba(255, 183, 75, 1);
+    height: 36px;
+    width: 100px;
+    border: 0cap;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.spanacheter{
+ color: white;
+ position: relative;
+ top: -10px;
+}
+.divheader>.liste>li>.a-inlink{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-block: 17px;
+    padding-inline: 20px;
+}
+.divheader>.liste>li>.a-inlink:hover{
+    color: black;
+    background-color: white;
+}
+.button_number_item{
+    position: relative;
+    right: 23px;
+    top: -20px;
+    color: white;
+    background-color: red;
+    padding: 0px 4px;
+    border-radius: 50%;
+    font-size: 14px;
+}

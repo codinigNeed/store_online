@@ -1,0 +1,1 @@
+export const user = [{nomProduit:'nomproduit',codeProduit:'codeProduit',quantity:100}]

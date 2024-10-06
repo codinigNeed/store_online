@@ -1,0 +1,51 @@
+Link{
+    text-decoration: none;
+  }
+.div-tape{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 970px;
+    height: 28px;
+    background-color: rgba(244, 244, 245, 1);
+    margin-top: 30px;
+    border-radius: 9px;
+}
+.nav-articles{
+    width: 270px;
+    height: 24px;
+    text-align: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.nav-articles:hover{
+    background-color: white;
+}
+.div-articles-ajouterArticle{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+.div-ajuoter-article{
+    margin-right: 30px;
+}
+.Ajouter-Article{
+    cursor: pointer;
+}
+.buttonEdit{
+    width: 25px;
+    height: 25px;
+    color: rgba(0, 126, 242, 1);
+    cursor: pointer;
+    margin-right: 15px;
+}
+.buttonDelete{
+    width: 25px;
+    height: 25px;
+    color: rgba(255, 60, 95, 1);
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,40 @@
+.input_of_contactUs{
+   height: 25px;
+    width: 262px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+.label_of_contactUs{
+ margin-block: 10px;
+}
+.image_of_adress{
+    width: 35px;
+    height: 35px;
+}
+.div_of_page_contact{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 1rem;
+}
+.div_of_adress{
+    background-color: rgba(245, 247, 255, 1);
+    margin-top: 60px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+.button_submit{
+    width: 140px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+}
+.button_submit:hover{
+    background: #6cf0c2;
+}

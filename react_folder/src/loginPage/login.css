@@ -1,0 +1,74 @@
+.div_of_login{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+}
+.div_login{
+    height: 300px;
+    width: 400px;
+    padding: 50px;
+    background-color: rgba(245, 247, 255, 1);
+}
+.div_singin{
+    height: 350px;
+    width: 500px;
+    padding: 50px;
+    background-color: rgba(245, 247, 255, 1);
+}
+.input_login{
+    margin-block: 10px;
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.login-form {
+    background-color: rgba(245, 247, 255, 1);
+    padding: 2rem;
+    }
+    /* input[type="text"],
+    input[type="password"] {
+    margin-top: 10px;
+    height: 30px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    } */
+    .button-container {
+    display: flex;
+    justify-content: center;
+    }
+    .list-container {
+    display: flex;
+    }
+    .error {
+    color: red;
+    font-size: 15px;
+    }
+    .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    }
+    .forgot_Pass{
+        color: rgba(1, 86, 255, 1);
+        margin-left: 20px;
+    }
+.singin_button{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: rgba(1, 86, 255, 1);
+    border: 1px solid rgba(1, 86, 255, 1);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.singin_button:hover{
+    background: rgb(84, 136, 239);
+}

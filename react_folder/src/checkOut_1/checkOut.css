@@ -1,0 +1,69 @@
+.input_of_ckeckout_1{
+    margin-block: 10px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.div_of_page_checkout{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px;
+}
+.cart_chopping{
+    height: auto;
+    width: 400px;
+    padding: 50px;
+    background-color: rgba(245, 247, 255, 1);
+}
+.button_submit_of_ckeckout_1{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: rgba(1, 86, 255, 1);
+    border: 1px solid rgba(1, 86, 255, 1);
+    color: #fff;
+    padding: 10px 45px;
+    border-radius: 50px;
+}
+.button_submit_of_ckeckout_1:hover{
+    background: rgb(84, 136, 239);
+}
+.div_premier_de_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin:20px 100px 20px 20px;
+}
+.buttonCheck1 {
+    position: relative;
+    top: -29px;
+    right: -65px;
+    border-radius: 50px;
+    padding: 10px 15px ;
+    background-color: white;
+    border: 1px black solid;
+}
+.buttonCheck2 {
+    position: relative;
+    top: -29px;
+    right: -65px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 15px ;
+    border: 1px black solid;
+}
+.hrclass{
+    width:150px;
+    margin-inline:0px;
+    height:2px;
+    background-color: rgba(202, 205, 216, 1);
+}
+.imagSummary{
+    width: 62px;
+    height: 62px;
+}
+.div_of_orderSummary{
+    display: flex;
+    gap: 1rem;
+}

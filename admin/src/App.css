@@ -1,0 +1,178 @@
+body{
+  border: 0px;
+  padding: 0%;
+  margin: 0px;
+}
+Link{
+  text-decoration: none;
+}
+.div-head-premier{
+  width: 262px;
+  height: 54px;
+  border: 1px solid rgba(227, 227, 227, 1);
+  background-color: rgba(249, 249, 249, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-head-duexeme{
+  width: 1020px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(227, 227, 227, 1);
+  background-color: rgba(249, 249, 249, 1);
+}
+.div-head{
+  display: flex;
+  justify-content: space-around;
+}
+.home-navbar{
+  width: 262px;
+  height: 505px;
+  border: 1px solid rgba(227, 227, 227, 1);
+  background-color: rgba(249, 249, 249, 1);
+}
+.div-icon-header{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+}
+.icon-notification{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-notification:hover{
+  background-color: white;
+}
+.icon-message{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-message:hover{
+  background-color: white;
+}
+.icon-user{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  background-color: rgba(217, 217, 217, 1);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-sherch{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0cap;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.icon-sherch:hover{
+    background-color: rgba(207, 205, 205, 0.468);
+}
+.button-sherch{
+  display: flex;
+  justify-content: center;
+}
+.icon-notification-premier{
+  width: 37px;
+  height: 37px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icon-notification-premier:hover{
+  background-color: rgba(207, 205, 205, 0.468);
+}
+.div-icon-user{
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.3);
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(224, 224, 224);
+  align-items: center;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.div-icon-user:hover{
+  background-color: rgba(207, 205, 205, 0.468);
+}
+.div-all-body{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.dropDownProfile{
+  position: absolute;
+  top: 3rem;
+  right: 1.4rem;
+  width: 120px;
+  border-radius: 8px;
+  height: 146px;
+  display: none;
+  background-color: white;
+  border: 1px solid rgba(218, 218, 218, 0.911);
+  box-shadow: 2px 2px rgba(218, 218, 218, 0.454) 6px;
+}
+.div-icon-user:hover .dropDownProfile{
+      display: block;
+}
+.li-dropDownProfile{
+  padding-inline: 8px;
+  padding-block: 2px;
+  border-radius: 6px;
+
+}
+.li-dropDownProfile:hover{
+  background-color: #e5e7eb;
+}
+.div-link-user{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 6px 0px 20px;
+  padding-left: 6px;
+  border-radius: 7px;
+  color: black;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+.div-link-user:hover{
+  background-color: rgb(243 244 246);
+}
+.div-of-notifications{
+  height: 500px;
+    width: 480px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 11.2rem;
+    overflow-x: hidden !important;
+    border-radius: 12px;
+    box-shadow: 0 2px 32px 0 rgba(193, 191, 191, 0.374);
+}

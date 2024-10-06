@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(187, 227, 227);
+}
+img{
+    margin-top: 20px;
+    grid-template-columns: max-content;
+    margin-left: 60px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    
+}
+h4{
+    letter-spacing: 2px;
+    text-align: center;
+}

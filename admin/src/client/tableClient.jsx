@@ -1,0 +1,1 @@
+export const article = [{image:'image',nomProduit:'nomproduit',catigorie:'catigorie',emplacement:'emplacement',codeProduit:'codeProduit',quantity:100,prix:200}]
